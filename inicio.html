@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Tarea Clase 9</title>
+    <link href="/Stylos Css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off" placeholder="ingrese el nombre del pokemon">
+    </form>
+    <div data-poke-card class="poke-card">
+        <div data-poke-name>Pokedex</div>
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="/imagenes/poke-pikachu.png"/>
+        </div>
+        <div data-poke-info="" class="poke-info"></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-peso class="poke-peso"></div>
+        <div data-poke-altura class="poke-altura"></div>
+        <div data-poke-ExpBase class="poke-ExpBase"></div>
+       
+        
+    </div>
+</body>
+<script src="/Js/ConsumiendoConsultasPost.js" type="text/javascript" defer></script>
+</html>

@@ -1,0 +1,98 @@
+form {
+    width: 300px;
+    margin: 20px auto;
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+        background-color: rgb(199, 100, 100);
+    border: 2px solid #FFEA70;
+
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(199, 100, 100);
+    border: 3px solid #FFEA70;
+}
+
+.poke-card::before {
+    content: '';
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 40px auto;
+    
+}
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px dashed blueviolet;
+}
+
+.poke-info div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+   
+}
+
+.poke-peso div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px dashed blueviolet;
+}
+
+.poke-altura div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px dashed blueviolet;
+}
+
+.poke-ExpBase div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px dashed blueviolet;
+}
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+    background-color: #373b69;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgb(67, 67, 134);
+    overflow: hidden;
+    position: relative;
+   
+}
